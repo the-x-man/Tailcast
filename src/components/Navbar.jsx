@@ -33,7 +33,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                ServIT
               </div>
             </div>
           </a>
@@ -55,25 +55,6 @@ export const Navbar = () => {
                 {label}
               </a>
             ))}
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}
-        >
-          <div className="grow basis-0 justify-end hidden lg:flex">
-            <a
-              className="text-white main-border-gray rounded-xl
-           bg-bgDark2 hover:bg-bgDark3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
-              target="_blank"
-              aria-label="source code"
-            >
-              <GithubIcon />
-              <span className="pt-px">Source code</span>
-            </a>
           </div>
         </motion.div>
         <div
@@ -110,14 +91,6 @@ export const Navbar = () => {
                   {label}
                 </a>
               ))}
-              <a
-                className="outlined-button pl-6 pr-8 pt-2 pb-2  flex"
-                href="https://github.com/matt765/Tidestream"
-                target="_blank"
-              >
-                <GithubIcon />
-                Source code
-              </a>
             </div>
           </motion.div>
         )}
